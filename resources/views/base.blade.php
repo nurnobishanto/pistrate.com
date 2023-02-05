@@ -14,8 +14,8 @@
     <!--plugin-css-->
     <link href="{{asset('frontsite')}}/css/bootstrap.min.css" rel="stylesheet">
     <link href="{{asset('frontsite')}}/css/plugin.min.css" rel="stylesheet">
-    <link href="{{asset('frontsite')}}/https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" rel="stylesheet">
-    <link href="{{asset('frontsite')}}/https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <!-- template-style-->
     <link href="{{asset('frontsite')}}/css/style.css" rel="stylesheet">
     <link href="{{asset('frontsite')}}/css/responsive.css" rel="stylesheet">
@@ -111,7 +111,7 @@
                 <div class="niwaxbtnvideo mt30">
                   <a href="#" class="niwax-btn2">GET STARTED<i class="fas fa-chevron-right fa-icon"></i></a>
                   <div class="video-btn  d-flex v-center gap10">
-                    <div class="video-intro-ppx"><a class="video-link play-video" href="{{asset('frontsite')}}/https://www.youtube.com/watch?v=SZEflIVnhH8?autoplay=1&rel=0"><span class="triangle-play"></span></a></div>
+                    <div class="video-intro-ppx"><a class="video-link play-video" href="https://www.youtube.com/watch?v=SZEflIVnhH8?autoplay=1&rel=0"><span class="triangle-play"></span></a></div>
                     <div class="title-hero">
                       <p>Play Video</p>
                     </div>
@@ -960,7 +960,7 @@
               </div>
               <div class="col-lg-6 pt60">
                 <div class="footer-copyrights-">
-                  <p>© 2020-2022. All Rights Reserved By <a href="{{asset('frontsite')}}/https://themeforest.net/user/rajesh-doot/portfolio" target="blank">Rajesh Doot</a></p>
+                  <p>© 2020-2022. All Rights Reserved By <a href="https://themeforest.net/user/rajesh-doot/portfolio" target="blank">Rajesh Doot</a></p>
                 </div>
               </div>
             </div>
