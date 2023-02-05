@@ -26,7 +26,7 @@
     {{-- <!--Start Preloader -->
     <div class="onloadpage" id="page_loader">
       <div class="pre-content">
-        <div class="logo-pre"><img src="images/logo.png" alt="Logo" class="img-fluid" /></div>
+        <div class="logo-pre"><img src="{{asset('frontsite')}}/images/logo.png" alt="Logo" class="img-fluid" /></div>
         <div class="pre-text- text-radius text-light text-animation bg-b">Niwax - Creative Agency & Portfolio HTML Template Are 2 Seconds Away. Have Patience</div>
       </div>
     </div>
@@ -36,34 +36,34 @@
       <div class="container m-pad">
         <div class="menu-header">
           <div class="dsk-logo"><a class="nav-brand" href="{{asset('frontsite')}}/digital-agency.html">
-            <img src="images/white-logo.png" alt="Logo" class="mega-white-logo"/>
-            <img src="images/logo.png" alt="Logo" class="mega-darks-logo"/>
+            <img src="{{asset('frontsite')}}/images/white-logo.png" alt="Logo" class="mega-white-logo"/>
+            <img src="{{asset('frontsite')}}/images/logo.png" alt="Logo" class="mega-darks-logo"/>
             </a>
           </div>
           <div class="custom-nav" role="navigation">
             <ul class="nav-list onepge">
-              <li><a href="{{asset('frontsite')}}/#home" class="menu-links">Home</a></li>
-              <li><a href="{{asset('frontsite')}}/#services" class="menu-links">Services</a></li>
-              <li><a href="{{asset('frontsite')}}/#work" class="menu-links">Work</a></li>
-              <li><a href="{{asset('frontsite')}}/#price" class="menu-links">Price</a></li>
-              <li><a href="{{asset('frontsite')}}/#" class="btn-round- btn-br bg-btn"><i class="fas fa-phone-alt"></i></a></li>
-              <li><a href="{{asset('frontsite')}}/#" class="btn-outline icon-btn">Chat With Us <i class="fab fa-whatsapp"></i></a> </li>
+              <li><a href="#home" class="menu-links">Home</a></li>
+              <li><a href="#services" class="menu-links">Services</a></li>
+              <li><a href="#work" class="menu-links">Work</a></li>
+              <li><a href="#price" class="menu-links">Price</a></li>
+              <li><a href="#" class="btn-round- btn-br bg-btn"><i class="fas fa-phone-alt"></i></a></li>
+              <li><a href="#" class="btn-outline icon-btn">Chat With Us <i class="fab fa-whatsapp"></i></a> </li>
             </ul>
           </div>
           <div class="mobile-menu2">
             <ul class="mob-nav2">
-              <li><a href="{{asset('frontsite')}}/#" class="btn-round- trngl btn-br bg-btn btshad-b1"  data-bs-toggle="modal" data-bs-target="#menu-popup"><i class="fas fa-envelope-open-text"></i></a></li>
-              <li class="navm-"> <a class="toggle" href="{{asset('frontsite')}}/#"><span></span></a></li>
+              <li><a href="#" class="btn-round- trngl btn-br bg-btn btshad-b1"  data-bs-toggle="modal" data-bs-target="#menu-popup"><i class="fas fa-envelope-open-text"></i></a></li>
+              <li class="navm-"> <a class="toggle" href="#"><span></span></a></li>
             </ul>
           </div>
         </div>
         <!--Mobile Menu-->
         <nav id="main-nav">
           <ul class="first-nav">
-            <li><a href="{{asset('frontsite')}}/#home" class="menu-links">Home</a></li>
-            <li><a href="{{asset('frontsite')}}/#services" class="menu-links">Services</a></li>
-            <li><a href="{{asset('frontsite')}}/#work" class="menu-links">Work</a></li>
-            <li><a href="{{asset('frontsite')}}/#price" class="menu-links">Price</a></li>
+            <li><a href="#home" class="menu-links">Home</a></li>
+            <li><a href="#services" class="menu-links">Services</a></li>
+            <li><a href="#work" class="menu-links">Work</a></li>
+            <li><a href="#price" class="menu-links">Price</a></li>
           </ul>
           <ul class="bottom-nav">
             <li class="prb">
@@ -109,7 +109,7 @@
                 <p class="wow fadeIn" data-wow-delay=".8s">Niwax is one of the most creative and experienced mobile app development companies in India.</p>
                 <!-- btn set -->
                 <div class="niwaxbtnvideo mt30">
-                  <a href="{{asset('frontsite')}}/#" class="niwax-btn2">GET STARTED<i class="fas fa-chevron-right fa-icon"></i></a>
+                  <a href="#" class="niwax-btn2">GET STARTED<i class="fas fa-chevron-right fa-icon"></i></a>
                   <div class="video-btn  d-flex v-center gap10">
                     <div class="video-intro-ppx"><a class="video-link play-video" href="{{asset('frontsite')}}/https://www.youtube.com/watch?v=SZEflIVnhH8?autoplay=1&rel=0"><span class="triangle-play"></span></a></div>
                     <div class="title-hero">
@@ -178,30 +178,30 @@
           <div class="col-lg-4 col-sm-6 mt30 wow fadeIn" data-wow-delay=".2s">
             <div class="isotope_item h-scl-">
               <div class="item-image h-scl-base">
-                <a href="{{asset('frontsite')}}/#"><img src="images/portfolio/servc-1.jpg" alt="portfolio" class="img-fluid"> </a>
+                <a href="#"><img src="{{asset('frontsite')}}/images/portfolio/servc-1.jpg" alt="portfolio" class="img-fluid"> </a>
               </div>
               <div class="item-info">
-                <h4><a href="{{asset('frontsite')}}/#">Web Design</a></h4>
+                <h4><a href="#">Web Design</a></h4>
               </div>
             </div>
           </div>
           <div class="col-lg-4 col-sm-6 mt30 wow fadeIn" data-wow-delay=".5s">
             <div class="isotope_item h-scl-">
               <div class="item-image h-scl-base">
-                <a href="{{asset('frontsite')}}/#"><img src="images/portfolio/servc-2.jpg" alt="portfolio" class="img-fluid"> </a>
+                <a href="#"><img src="{{asset('frontsite')}}/images/portfolio/servc-2.jpg" alt="portfolio" class="img-fluid"> </a>
               </div>
               <div class="item-info">
-                <h4><a href="{{asset('frontsite')}}/#">UI/UX Design</a></h4>
+                <h4><a href="#">UI/UX Design</a></h4>
               </div>
             </div>
           </div>
           <div class="col-lg-4 col-sm-6 mt30 wow fadeIn" data-wow-delay=".8s">
             <div class="isotope_item h-scl-">
               <div class="item-image h-scl-base">
-                <a href="{{asset('frontsite')}}/#"><img src="images/portfolio/servc-3.jpg" alt="portfolio" class="img-fluid"> </a>
+                <a href="#"><img src="{{asset('frontsite')}}/images/portfolio/servc-3.jpg" alt="portfolio" class="img-fluid"> </a>
               </div>
               <div class="item-info">
-                <h4><a href="{{asset('frontsite')}}/#">Product Design</a></h4>
+                <h4><a href="#">Product Design</a></h4>
               </div>
             </div>
           </div>
@@ -209,7 +209,7 @@
         <div class="-cta-btn mt70">
           <div class="free-cta-title v-center wow zoomInDown" data-wow-delay=".9s">
             <p>Hire a <span>Dedicated Developer</span></p>
-            <a href="{{asset('frontsite')}}/#" class="niwax-btn2">Hire Developer<i class="fas fa-chevron-right fa-icon"></i></a>
+            <a href="#" class="niwax-btn2">Hire Developer<i class="fas fa-chevron-right fa-icon"></i></a>
           </div>
         </div>
       </div>
@@ -225,51 +225,51 @@
           <div class="companyawards col-lg-9">
             <div class="niwax-logo-awards niwax-logo-slider owl-carousel">
               <div class="industry-workfors">
-                <img src="images/icons/house.svg" alt="img"> 
+                <img src="{{asset('frontsite')}}/images/icons/house.svg" alt="img"> 
                 <h6>Real estate</h6>
               </div>
               <div class="industry-workfors">
-                <img src="images/icons/travel-case.svg" alt="img"> 
+                <img src="{{asset('frontsite')}}/images/icons/travel-case.svg" alt="img"> 
                 <h6>Tour &amp; Travels</h6>
               </div>
               <div class="industry-workfors">
-                <img src="images/icons/video-tutorials.svg" alt="img"> 
+                <img src="{{asset('frontsite')}}/images/icons/video-tutorials.svg" alt="img"> 
                 <h6>Education</h6>
               </div>
               <div class="industry-workfors">
-                <img src="images/icons/taxi.svg" alt="img"> 
+                <img src="{{asset('frontsite')}}/images/icons/taxi.svg" alt="img"> 
                 <h6>Transport</h6>
               </div>
               <div class="industry-workfors">
-                <img src="images/icons/event.svg" alt="img"> 
+                <img src="{{asset('frontsite')}}/images/icons/event.svg" alt="img"> 
                 <h6>Event</h6>
               </div>
               <div class="industry-workfors">
-                <img src="images/icons/smartphone.svg" alt="img"> 
+                <img src="{{asset('frontsite')}}/images/icons/smartphone.svg" alt="img"> 
                 <h6>eCommerce</h6>
               </div>
               <div class="industry-workfors">
-                <img src="images/icons/joystick.svg" alt="img"> 
+                <img src="{{asset('frontsite')}}/images/icons/joystick.svg" alt="img"> 
                 <h6>Game</h6>
               </div>
               <div class="industry-workfors">
-                <img src="images/icons/healthcare.svg" alt="img"> 
+                <img src="{{asset('frontsite')}}/images/icons/healthcare.svg" alt="img"> 
                 <h6>Healthcare</h6>
               </div>
               <div class="industry-workfors">
-                <img src="images/icons/money-growth.svg" alt="img"> 
+                <img src="{{asset('frontsite')}}/images/icons/money-growth.svg" alt="img"> 
                 <h6>Finance</h6>
               </div>
               <div class="industry-workfors">
-                <img src="images/icons/baker.svg" alt="img"> 
+                <img src="{{asset('frontsite')}}/images/icons/baker.svg" alt="img"> 
                 <h6>Restaurant</h6>
               </div>
               <div class="industry-workfors">
-                <img src="images/icons/mobile-app.svg" alt="img"> 
+                <img src="{{asset('frontsite')}}/images/icons/mobile-app.svg" alt="img"> 
                 <h6>On-Demand</h6>
               </div>
               <div class="industry-workfors">
-                <img src="images/icons/groceries.svg" alt="img"> 
+                <img src="{{asset('frontsite')}}/images/icons/groceries.svg" alt="img"> 
                 <h6>Grocery</h6>
               </div>
             </div>
@@ -293,8 +293,8 @@
           </div>
           <div class="col-lg-6">
             <div class="img-design h-scl-">
-              <div class="imgac "> <img src="images/hero/creative-ag2a.jpg" alt="creative agnecy html template" class="ag-dg1 img-fluid h-scl-base"></div>
-              <div class="imgac h-scl-base"><img src="images/hero/creative-ag2b.jpg" alt="creative agnecy html template" class="ag-dg2 img-fluid "></div>
+              <div class="imgac "> <img src="{{asset('frontsite')}}/images/hero/creative-ag2a.jpg" alt="creative agnecy html template" class="ag-dg1 img-fluid h-scl-base"></div>
+              <div class="imgac h-scl-base"><img src="{{asset('frontsite')}}/images/hero/creative-ag2b.jpg" alt="creative agnecy html template" class="ag-dg2 img-fluid "></div>
               <div class="shpdez1 shpdzz"></div>
               <div class="shpdez2 shpdzz"></div>
               <div class="shpdez3 shpdzz"></div>
@@ -304,14 +304,14 @@
           <div class="col-lg-6 mt30">
             <div class="itm-media-object mt40 tilt-3d">
               <div class="media">
-                <div class="img-ab- base" data-tilt data-tilt-max="20" data-tilt-speed="1000"><img src="images/icons/computers.svg" alt="icon" class="layer"></div>
+                <div class="img-ab- base" data-tilt data-tilt-max="20" data-tilt-speed="1000"><img src="{{asset('frontsite')}}/images/icons/computers.svg" alt="icon" class="layer"></div>
                 <div class="media-body">
                   <h4>Streamlined Project Management</h4>
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc aliquet ligula nec leo elementum semper. Mauris aliquet egestas metus.</p>
                 </div>
               </div>
               <div class="media mt40">
-                <div class="img-ab- base" data-tilt data-tilt-max="20" data-tilt-speed="1000"><img src="images/icons/worker.svg" alt="icon" class="layer"></div>
+                <div class="img-ab- base" data-tilt data-tilt-max="20" data-tilt-speed="1000"><img src="{{asset('frontsite')}}/images/icons/worker.svg" alt="icon" class="layer"></div>
                 <div class="media-body">
                   <h4>A Dedicated Team of Experts</h4>
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc aliquet ligula nec leo elementum semper. Mauris aliquet egestas metus.</p>
@@ -322,14 +322,14 @@
           <div class="col-lg-6 mt30">
             <div class="itm-media-object mt40 tilt-3d">
               <div class="media">
-                <div class="img-ab- base" data-tilt data-tilt-max="20" data-tilt-speed="1000"><img src="images/icons/computers.svg" alt="icon" class="layer"></div>
+                <div class="img-ab- base" data-tilt data-tilt-max="20" data-tilt-speed="1000"><img src="{{asset('frontsite')}}/images/icons/computers.svg" alt="icon" class="layer"></div>
                 <div class="media-body">
                   <h4>Streamlined Project Management</h4>
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc aliquet ligula nec leo elementum semper. Mauris aliquet egestas metus.</p>
                 </div>
               </div>
               <div class="media mt40">
-                <div class="img-ab- base" data-tilt data-tilt-max="20" data-tilt-speed="1000"><img src="images/icons/worker.svg" alt="icon" class="layer"></div>
+                <div class="img-ab- base" data-tilt data-tilt-max="20" data-tilt-speed="1000"><img src="{{asset('frontsite')}}/images/icons/worker.svg" alt="icon" class="layer"></div>
                 <div class="media-body">
                   <h4>A Dedicated Team of Experts</h4>
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc aliquet ligula nec leo elementum semper. Mauris aliquet egestas metus.</p>
@@ -367,10 +367,10 @@
           <div class="col-lg-4 col-sm-6 single-card-item app">
             <div class="isotope_item hover-scale">
               <div class="item-image">
-                <a href="{{asset('frontsite')}}/#"><img src="images/portfolio/image-1.jpg" alt="portfolio" class="img-fluid"/> </a>
+                <a href="#"><img src="{{asset('frontsite')}}/images/portfolio/image-1.jpg" alt="portfolio" class="img-fluid"/> </a>
               </div>
               <div class="item-info">
-                <h4><a href="{{asset('frontsite')}}/#">Creative App</a></h4>
+                <h4><a href="#">Creative App</a></h4>
                 <p>ios, design</p>
               </div>
             </div>
@@ -378,10 +378,10 @@
           <div class="col-lg-4 col-sm-6 single-card-item graphic">
             <div class="isotope_item hover-scale">
               <div class="item-image">
-                <a href="{{asset('frontsite')}}/#"><img src="images/portfolio/image-2.jpg" alt="image" class="img-fluid"/> </a>
+                <a href="#"><img src="{{asset('frontsite')}}/images/portfolio/image-2.jpg" alt="image" class="img-fluid"/> </a>
               </div>
               <div class="item-info">
-                <h4><a href="{{asset('frontsite')}}/#">Brochure Design</a></h4>
+                <h4><a href="#">Brochure Design</a></h4>
                 <p>Graphic, Print</p>
               </div>
             </div>
@@ -389,10 +389,10 @@
           <div class="col-lg-4 col-sm-6 single-card-item website">
             <div class="isotope_item hover-scale">
               <div class="item-image">
-                <a href="{{asset('frontsite')}}/#"><img src="images/portfolio/image-3.jpg" alt="image" class="img-fluid"/> </a>
+                <a href="#"><img src="{{asset('frontsite')}}/images/portfolio/image-3.jpg" alt="image" class="img-fluid"/> </a>
               </div>
               <div class="item-info">
-                <h4><a href="{{asset('frontsite')}}/#">Ecommerce Development</a></h4>
+                <h4><a href="#">Ecommerce Development</a></h4>
                 <p>Web Application</p>
               </div>
             </div>
@@ -400,10 +400,10 @@
           <div class="col-lg-4 col-sm-6 single-card-item app">
             <div class="isotope_item hover-scale">
               <div class="item-image">
-                <a href="{{asset('frontsite')}}/#"><img src="images/portfolio/image-4.jpg" alt="image" class="img-fluid"/> </a>
+                <a href="#"><img src="{{asset('frontsite')}}/images/portfolio/image-4.jpg" alt="image" class="img-fluid"/> </a>
               </div>
               <div class="item-info">
-                <h4><a href="{{asset('frontsite')}}/#">Icon Pack</a></h4>
+                <h4><a href="#">Icon Pack</a></h4>
                 <p>Android & iOs, Design</p>
               </div>
             </div>
@@ -411,10 +411,10 @@
           <div class="col-lg-4 col-sm-6 single-card-item graphic">
             <div class="isotope_item hover-scale">
               <div class="item-image">
-                <a href="{{asset('frontsite')}}/#"><img src="images/portfolio/image-5.jpg" alt="image" class="img-fluid"/> </a>
+                <a href="#"><img src="{{asset('frontsite')}}/images/portfolio/image-5.jpg" alt="image" class="img-fluid"/> </a>
               </div>
               <div class="item-info">
-                <h4><a href="{{asset('frontsite')}}/#">Smart Watch</a></h4>
+                <h4><a href="#">Smart Watch</a></h4>
                 <p>UI/UX Design</p>
               </div>
             </div>
@@ -422,10 +422,10 @@
           <div class="col-lg-4 col-sm-6 single-card-item graphic">
             <div class="isotope_item hover-scale">
               <div class="item-image">
-                <a href="{{asset('frontsite')}}/#"><img src="images/portfolio/image-6.jpg" alt="image" class="img-fluid"/> </a>
+                <a href="#"><img src="{{asset('frontsite')}}/images/portfolio/image-6.jpg" alt="image" class="img-fluid"/> </a>
               </div>
               <div class="item-info">
-                <h4><a href="{{asset('frontsite')}}/#">Brochure Design</a></h4>
+                <h4><a href="#">Brochure Design</a></h4>
                 <p>Graphic, Print</p>
               </div>
             </div>
@@ -433,10 +433,10 @@
           <div class="col-lg-4 col-sm-6 single-card-item website">
             <div class="isotope_item hover-scale">
               <div class="item-image">
-                <a href="{{asset('frontsite')}}/#"><img src="images/portfolio/image-7.jpg" alt="image" class="img-fluid"/> </a>
+                <a href="#"><img src="{{asset('frontsite')}}/images/portfolio/image-7.jpg" alt="image" class="img-fluid"/> </a>
               </div>
               <div class="item-info">
-                <h4><a href="{{asset('frontsite')}}/#">Packaging Design</a></h4>
+                <h4><a href="#">Packaging Design</a></h4>
                 <p>Graphic, Print</p>
               </div>
             </div>
@@ -444,10 +444,10 @@
           <div class="col-lg-4 col-sm-6 single-card-item app">
             <div class="isotope_item hover-scale">
               <div class="item-image">
-                <a href="{{asset('frontsite')}}/#"><img src="images/portfolio/image-8.jpg" alt="image" class="img-fluid"/> </a>
+                <a href="#"><img src="{{asset('frontsite')}}/images/portfolio/image-8.jpg" alt="image" class="img-fluid"/> </a>
               </div>
               <div class="item-info">
-                <h4><a href="{{asset('frontsite')}}/#">Restaurant App</a></h4>
+                <h4><a href="#">Restaurant App</a></h4>
                 <p>Android App</p>
               </div>
             </div>
@@ -455,10 +455,10 @@
           <div class="col-lg-4 col-sm-6 single-card-item  website">
             <div class="isotope_item hover-scale">
               <div class="item-image">
-                <a href="{{asset('frontsite')}}/#"><img src="images/portfolio/image-9.jpg" alt="image" class="img-fluid"/> </a>
+                <a href="#"><img src="{{asset('frontsite')}}/images/portfolio/image-9.jpg" alt="image" class="img-fluid"/> </a>
               </div>
               <div class="item-info">
-                <h4><a href="{{asset('frontsite')}}/#">Portfolio Website</a></h4>
+                <h4><a href="#">Portfolio Website</a></h4>
                 <p>Web Design</p>
               </div>
             </div>
@@ -475,15 +475,15 @@
             <div class="whychooseniwax v-center">
               <div class="niwaxawardrow1">
                 <div class="awardbgwithtext">
-                  <img src="images/icons/award-bg.png" alt="">
+                  <img src="{{asset('frontsite')}}/images/icons/award-bg.png" alt="">
                   <p>20+<span>YEARS Experience</span></p>
                 </div>
                 <div class="awardbgwithtext">
-                  <img src="images/icons/award-bg.png" alt="">
+                  <img src="{{asset('frontsite')}}/images/icons/award-bg.png" alt="">
                   <p>20+<span>YEARS Experience</span></p>
                 </div>
                 <div class="awardbgwithtext">
-                  <img src="images/icons/award-bg.png" alt="">
+                  <img src="{{asset('frontsite')}}/images/icons/award-bg.png" alt="">
                   <p>20+<span>YEARS Experience</span></p>
                 </div>
               </div>
@@ -493,24 +493,24 @@
                 <p class="mt20">We have been providing Digital Marketing service from last 8 years by direct collaboration with our clients. As a Digital Marketing company we are providing all services like SEO Audit, Pay Per Click, Social Media Management, Organic SEO.</p>
                 <p class="mt10">We work with organizations of all sizes, from startups to Fortune companies. We believe in forging long-lasting partnerships with all of our clients and we remain available to our clients whenever they need us. Contact us for more information.</p>
                 <div class="pairofbtn mt40">
-                  <a href="{{asset('frontsite')}}/#" class="niwax-btn3">Get In Touch With Us</a>
-                  <a href="{{asset('frontsite')}}/#" class="btnwithiconside d-flex gap10 v-center">
-                    <img src="images/icons/whatsapp.svg" alt="whatsapp"> 
+                  <a href="#" class="niwax-btn3">Get In Touch With Us</a>
+                  <a href="#" class="btnwithiconside d-flex gap10 v-center">
+                    <img src="{{asset('frontsite')}}/images/icons/whatsapp.svg" alt="whatsapp"> 
                     <div> <span>Or - Just Give Us A Call:</span>+91- 1234567890 </div>
                   </a>
                 </div>
               </div>
               <div class="niwaxawardrow1">
                 <div class="awardbgwithtext">
-                  <img src="images/icons/award-bg.png" alt="">
+                  <img src="{{asset('frontsite')}}/images/icons/award-bg.png" alt="">
                   <p>20+<span>YEARS Experience</span></p>
                 </div>
                 <div class="awardbgwithtext">
-                  <img src="images/icons/award-bg.png" alt="">
+                  <img src="{{asset('frontsite')}}/images/icons/award-bg.png" alt="">
                   <p>20+<span>YEARS Experience</span></p>
                 </div>
                 <div class="awardbgwithtext">
-                  <img src="images/icons/award-bg.png" alt="">
+                  <img src="{{asset('frontsite')}}/images/icons/award-bg.png" alt="">
                   <p>20+<span>YEARS Experience</span></p>
                 </div>
               </div>
@@ -538,25 +538,25 @@
               <div class="reviews-card pr-shadow">
                 <div class="row v-center">
                   <div class="col"> <span class="revbx-lr"><i class="fas fa-quote-left"></i></span> </div>
-                  <div class="col"> <span class="revbx-rl"><img src="images/client/upwork-logo.png" alt="review service logo"></span> </div>
+                  <div class="col"> <span class="revbx-rl"><img src="{{asset('frontsite')}}/images/client/upwork-logo.png" alt="review service logo"></span> </div>
                 </div>
                 <div class="review-text">
                   <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
                 </div>
                 <div class="-client-details-">
                   <div class="-reviewr">
-                    <img src="images/client/reviewer-a.jpg" alt="Good Review" class="img-fluid">
+                    <img src="{{asset('frontsite')}}/images/client/reviewer-a.jpg" alt="Good Review" class="img-fluid">
                   </div>
                   <div class="reviewer-text">
                     <h4>Mario Speedwagon</h4>
                     <p>Business Owner, <small>Jaipur</small></p>
                     <div class="star-rate">
                       <ul>
-                        <li> <a href="{{asset('frontsite')}}/javascript:void(0)" class="chked"><i class="fas fa-star" aria-hidden="true"></i></a> </li>
-                        <li> <a href="{{asset('frontsite')}}/javascript:void(0)" class="chked"><i class="fas fa-star" aria-hidden="true"></i></a> </li>
-                        <li> <a href="{{asset('frontsite')}}/javascript:void(0)" class="chked"><i class="fas fa-star" aria-hidden="true"></i></a> </li>
-                        <li> <a href="{{asset('frontsite')}}/javascript:void(0)" class="chked"><i class="fas fa-star" aria-hidden="true"></i></a> </li>
-                        <li> <a href="{{asset('frontsite')}}/javascript:void(0)" ><i class="fas fa-star" aria-hidden="true"></i></a> </li>
+                        <li> <a href="javascript:void(0)" class="chked"><i class="fas fa-star" aria-hidden="true"></i></a> </li>
+                        <li> <a href="javascript:void(0)" class="chked"><i class="fas fa-star" aria-hidden="true"></i></a> </li>
+                        <li> <a href="javascript:void(0)" class="chked"><i class="fas fa-star" aria-hidden="true"></i></a> </li>
+                        <li> <a href="javascript:void(0)" class="chked"><i class="fas fa-star" aria-hidden="true"></i></a> </li>
+                        <li> <a href="javascript:void(0)" ><i class="fas fa-star" aria-hidden="true"></i></a> </li>
                       </ul>
                     </div>
                   </div>
@@ -565,25 +565,25 @@
               <div class="reviews-card pr-shadow">
                 <div class="row v-center">
                   <div class="col"> <span class="revbx-lr"><i class="fas fa-quote-left"></i></span> </div>
-                  <div class="col"> <span class="revbx-rl"><img src="images/client/upwork-logo.png" alt="review service logo"></span> </div>
+                  <div class="col"> <span class="revbx-rl"><img src="{{asset('frontsite')}}/images/client/upwork-logo.png" alt="review service logo"></span> </div>
                 </div>
                 <div class="review-text">
                   <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
                 </div>
                 <div class="-client-details-">
                   <div class="-reviewr">
-                    <img src="images/client/reviewer-a.jpg" alt="Good Review" class="img-fluid">
+                    <img src="{{asset('frontsite')}}/images/client/reviewer-a.jpg" alt="Good Review" class="img-fluid">
                   </div>
                   <div class="reviewer-text">
                     <h4>Mario Speedwagon</h4>
                     <p>Business Owner, <small>Jaipur</small></p>
                     <div class="star-rate">
                       <ul>
-                        <li> <a href="{{asset('frontsite')}}/javascript:void(0)" class="chked"><i class="fas fa-star" aria-hidden="true"></i></a> </li>
-                        <li> <a href="{{asset('frontsite')}}/javascript:void(0)" class="chked"><i class="fas fa-star" aria-hidden="true"></i></a> </li>
-                        <li> <a href="{{asset('frontsite')}}/javascript:void(0)" class="chked"><i class="fas fa-star" aria-hidden="true"></i></a> </li>
-                        <li> <a href="{{asset('frontsite')}}/javascript:void(0)" class="chked"><i class="fas fa-star" aria-hidden="true"></i></a> </li>
-                        <li> <a href="{{asset('frontsite')}}/javascript:void(0)" ><i class="fas fa-star" aria-hidden="true"></i></a> </li>
+                        <li> <a href="javascript:void(0)" class="chked"><i class="fas fa-star" aria-hidden="true"></i></a> </li>
+                        <li> <a href="javascript:void(0)" class="chked"><i class="fas fa-star" aria-hidden="true"></i></a> </li>
+                        <li> <a href="javascript:void(0)" class="chked"><i class="fas fa-star" aria-hidden="true"></i></a> </li>
+                        <li> <a href="javascript:void(0)" class="chked"><i class="fas fa-star" aria-hidden="true"></i></a> </li>
+                        <li> <a href="javascript:void(0)" ><i class="fas fa-star" aria-hidden="true"></i></a> </li>
                       </ul>
                     </div>
                   </div>
@@ -592,25 +592,25 @@
               <div class="reviews-card pr-shadow">
                 <div class="row v-center">
                   <div class="col"> <span class="revbx-lr"><i class="fas fa-quote-left"></i></span> </div>
-                  <div class="col"> <span class="revbx-rl"><img src="images/client/upwork-logo.png" alt="review service logo"></span> </div>
+                  <div class="col"> <span class="revbx-rl"><img src="{{asset('frontsite')}}/images/client/upwork-logo.png" alt="review service logo"></span> </div>
                 </div>
                 <div class="review-text">
                   <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
                 </div>
                 <div class="-client-details-">
                   <div class="-reviewr">
-                    <img src="images/client/reviewer-a.jpg" alt="Good Review" class="img-fluid">
+                    <img src="{{asset('frontsite')}}/images/client/reviewer-a.jpg" alt="Good Review" class="img-fluid">
                   </div>
                   <div class="reviewer-text">
                     <h4>Mario Speedwagon</h4>
                     <p>Business Owner, <small>Jaipur</small></p>
                     <div class="star-rate">
                       <ul>
-                        <li> <a href="{{asset('frontsite')}}/javascript:void(0)" class="chked"><i class="fas fa-star" aria-hidden="true"></i></a> </li>
-                        <li> <a href="{{asset('frontsite')}}/javascript:void(0)" class="chked"><i class="fas fa-star" aria-hidden="true"></i></a> </li>
-                        <li> <a href="{{asset('frontsite')}}/javascript:void(0)" class="chked"><i class="fas fa-star" aria-hidden="true"></i></a> </li>
-                        <li> <a href="{{asset('frontsite')}}/javascript:void(0)" class="chked"><i class="fas fa-star" aria-hidden="true"></i></a> </li>
-                        <li> <a href="{{asset('frontsite')}}/javascript:void(0)" ><i class="fas fa-star" aria-hidden="true"></i></a> </li>
+                        <li> <a href="javascript:void(0)" class="chked"><i class="fas fa-star" aria-hidden="true"></i></a> </li>
+                        <li> <a href="javascript:void(0)" class="chked"><i class="fas fa-star" aria-hidden="true"></i></a> </li>
+                        <li> <a href="javascript:void(0)" class="chked"><i class="fas fa-star" aria-hidden="true"></i></a> </li>
+                        <li> <a href="javascript:void(0)" class="chked"><i class="fas fa-star" aria-hidden="true"></i></a> </li>
+                        <li> <a href="javascript:void(0)" ><i class="fas fa-star" aria-hidden="true"></i></a> </li>
                       </ul>
                     </div>
                   </div>
@@ -619,25 +619,25 @@
               <div class="reviews-card pr-shadow">
                 <div class="row v-center">
                   <div class="col"> <span class="revbx-lr"><i class="fas fa-quote-left"></i></span> </div>
-                  <div class="col"> <span class="revbx-rl"><img src="images/client/upwork-logo.png" alt="review service logo"></span> </div>
+                  <div class="col"> <span class="revbx-rl"><img src="{{asset('frontsite')}}/images/client/upwork-logo.png" alt="review service logo"></span> </div>
                 </div>
                 <div class="review-text">
                   <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
                 </div>
                 <div class="-client-details-">
                   <div class="-reviewr">
-                    <img src="images/client/reviewer-a.jpg" alt="Good Review" class="img-fluid">
+                    <img src="{{asset('frontsite')}}/images/client/reviewer-a.jpg" alt="Good Review" class="img-fluid">
                   </div>
                   <div class="reviewer-text">
                     <h4>Mario Speedwagon</h4>
                     <p>Business Owner, <small>Jaipur</small></p>
                     <div class="star-rate">
                       <ul>
-                        <li> <a href="{{asset('frontsite')}}/javascript:void(0)" class="chked"><i class="fas fa-star" aria-hidden="true"></i></a> </li>
-                        <li> <a href="{{asset('frontsite')}}/javascript:void(0)" class="chked"><i class="fas fa-star" aria-hidden="true"></i></a> </li>
-                        <li> <a href="{{asset('frontsite')}}/javascript:void(0)" class="chked"><i class="fas fa-star" aria-hidden="true"></i></a> </li>
-                        <li> <a href="{{asset('frontsite')}}/javascript:void(0)" class="chked"><i class="fas fa-star" aria-hidden="true"></i></a> </li>
-                        <li> <a href="{{asset('frontsite')}}/javascript:void(0)" ><i class="fas fa-star" aria-hidden="true"></i></a> </li>
+                        <li> <a href="javascript:void(0)" class="chked"><i class="fas fa-star" aria-hidden="true"></i></a> </li>
+                        <li> <a href="javascript:void(0)" class="chked"><i class="fas fa-star" aria-hidden="true"></i></a> </li>
+                        <li> <a href="javascript:void(0)" class="chked"><i class="fas fa-star" aria-hidden="true"></i></a> </li>
+                        <li> <a href="javascript:void(0)" class="chked"><i class="fas fa-star" aria-hidden="true"></i></a> </li>
+                        <li> <a href="javascript:void(0)" ><i class="fas fa-star" aria-hidden="true"></i></a> </li>
                       </ul>
                     </div>
                   </div>
@@ -696,17 +696,17 @@
                 </ul>
               </div>
               <div class="priceodernow">
-                <div class="priceoderbtn"><a href="{{asset('frontsite')}}/#" class="niwax-btn3">Order Now</a></div>
+                <div class="priceoderbtn"><a href="#" class="niwax-btn3">Order Now</a></div>
                 <div class="priceaskwithus">
-                  <a href="{{asset('frontsite')}}/#" class="livechatbtn d-flex gap10 v-center">
+                  <a href="#" class="livechatbtn d-flex gap10 v-center">
                     <i class="fas fa-comment"></i>
                     <div><span>Click here to</span> Live Chat </div>
                   </a>
                 </div>
               </div>
               <div class="pricingfooter mt30">
-                <div class="pfdiv1"><a href="{{asset('frontsite')}}/#">Call Us: +91 123456790</a></div>
-                <div class="pfdiv2"><a href="{{asset('frontsite')}}/#">Need Support</a></div>
+                <div class="pfdiv1"><a href="#">Call Us: +91 123456790</a></div>
+                <div class="pfdiv2"><a href="#">Need Support</a></div>
               </div>
             </div>
           </div>
@@ -744,17 +744,17 @@
                 </ul>
               </div>
               <div class="priceodernow">
-                <div class="priceoderbtn"><a href="{{asset('frontsite')}}/#" class="niwax-btn2">Order Now</a></div>
+                <div class="priceoderbtn"><a href="#" class="niwax-btn2">Order Now</a></div>
                 <div class="priceaskwithus">
-                  <a href="{{asset('frontsite')}}/#" class="livechatbtn d-flex gap10 v-center">
+                  <a href="#" class="livechatbtn d-flex gap10 v-center">
                     <i class="fas fa-comment"></i>
                     <div><span>Click here to</span> Live Chat </div>
                   </a>
                 </div>
               </div>
               <div class="pricingfooter mt30">
-                <div class="pfdiv1"><a href="{{asset('frontsite')}}/#">Call Us: +91 123456790</a></div>
-                <div class="pfdiv2"><a href="{{asset('frontsite')}}/#">Need Support</a></div>
+                <div class="pfdiv1"><a href="#">Call Us: +91 123456790</a></div>
+                <div class="pfdiv2"><a href="#">Need Support</a></div>
               </div>
             </div>
           </div>
@@ -792,17 +792,17 @@
                 </ul>
               </div>
               <div class="priceodernow">
-                <div class="priceoderbtn"><a href="{{asset('frontsite')}}/#" class="niwax-btn3">Order Now</a></div>
+                <div class="priceoderbtn"><a href="#" class="niwax-btn3">Order Now</a></div>
                 <div class="priceaskwithus">
-                  <a href="{{asset('frontsite')}}/#" class="livechatbtn d-flex gap10 v-center">
+                  <a href="#" class="livechatbtn d-flex gap10 v-center">
                     <i class="fas fa-comment"></i>
                     <div><span>Click here to</span> Live Chat </div>
                   </a>
                 </div>
               </div>
               <div class="pricingfooter mt30">
-                <div class="pfdiv1"><a href="{{asset('frontsite')}}/#">Call Us: +91 123456790</a></div>
-                <div class="pfdiv2"><a href="{{asset('frontsite')}}/#">Need Support</a></div>
+                <div class="pfdiv1"><a href="#">Call Us: +91 123456790</a></div>
+                <div class="pfdiv2"><a href="#">Need Support</a></div>
               </div>
             </div>
           </div>
@@ -825,7 +825,7 @@
         <div class="row justify-content-center">
           <div class="col-lg-4 col-sm-6 mt30  wow fadeIn" data-wow-delay=".2s">
             <div class="s-block wide-sblock">
-              <div class="s-card-icon"><img src="images/icons/teama.svg" alt="service" class="img-fluid"></div>
+              <div class="s-card-icon"><img src="{{asset('frontsite')}}/images/icons/teama.svg" alt="service" class="img-fluid"></div>
               <div class="s-block-content">
                 <h4>Reliable Service. In House Team</h4>
                 <p>In vel hendrerit nisi. Vestibulum eget risus velit.</p>
@@ -834,7 +834,7 @@
           </div>
           <div class="col-lg-4 col-sm-6 mt30 wow fadeIn" data-wow-delay=".5s">
             <div class="s-block wide-sblock">
-              <div class="s-card-icon"><img src="images/icons/link.svg" alt="service" class="img-fluid"></div>
+              <div class="s-card-icon"><img src="{{asset('frontsite')}}/images/icons/link.svg" alt="service" class="img-fluid"></div>
               <div class="s-block-content">
                 <h4>Trusted by People Like You</h4>
                 <p>In vel hendrerit nisi. Vestibulum eget risus velit.</p>
@@ -843,7 +843,7 @@
           </div>
           <div class="col-lg-4 col-sm-6 mt30 wow fadeIn" data-wow-delay=".8s">
             <div class="s-block wide-sblock">
-              <div class="s-card-icon"><img src="images/icons/tech.svg" alt="service" class="img-fluid"></div>
+              <div class="s-card-icon"><img src="{{asset('frontsite')}}/images/icons/tech.svg" alt="service" class="img-fluid"></div>
               <div class="s-block-content">
                 <h4>Complete Technical Competency</h4>
                 <p>In vel hendrerit nisi. Vestibulum eget risus velit.</p>
@@ -852,7 +852,7 @@
           </div>
           <div class="col-lg-4 col-sm-6 mt30 wow fadeIn" data-wow-delay="1.1s">
             <div class="s-block wide-sblock">
-              <div class="s-card-icon"><img src="images/icons/hi.svg" alt="service" class="img-fluid"></div>
+              <div class="s-card-icon"><img src="{{asset('frontsite')}}/images/icons/hi.svg" alt="service" class="img-fluid"></div>
               <div class="s-block-content">
                 <h4>Friendly & Cordial in Nature</h4>
                 <p>In vel hendrerit nisi. Vestibulum eget risus velit.</p>
@@ -861,7 +861,7 @@
           </div>
           <div class="col-lg-4 col-sm-6 mt30 wow fadeIn" data-wow-delay="1.4s">
             <div class="s-block wide-sblock">
-              <div class="s-card-icon"><img src="images/icons/badge.svg" alt="service" class="img-fluid"></div>
+              <div class="s-card-icon"><img src="{{asset('frontsite')}}/images/icons/badge.svg" alt="service" class="img-fluid"></div>
               <div class="s-block-content">
                 <h4>Excellent Quality Delivered on Time</h4>
                 <p>In vel hendrerit nisi. Vestibulum eget risus velit.</p>
@@ -870,7 +870,7 @@
           </div>
           <div class="col-lg-4 col-sm-6 mt30 wow fadeIn" data-wow-delay="1.7s">
             <div class="s-block wide-sblock">
-              <div class="s-card-icon"><img src="images/icons/tin.svg" alt="service" class="img-fluid"></div>
+              <div class="s-card-icon"><img src="{{asset('frontsite')}}/images/icons/tin.svg" alt="service" class="img-fluid"></div>
               <div class="s-block-content">
                 <h4>Effective & Continuous Communication</h4>
                 <p>In vel hendrerit nisi. Vestibulum eget risus velit.</p>
@@ -881,7 +881,7 @@
         <div class="-cta-btn mt70">
           <div class="free-cta-title v-center wow zoomInDown" data-wow-delay="1.8s">
             <p>Let's Start a <span>New Project</span> Together</p>
-            <a href="{{asset('frontsite')}}/#" class="niwax-btn2">Inquire Now<i class="fas fa-chevron-right fa-icon"></i></a>
+            <a href="#" class="niwax-btn2">Inquire Now<i class="fas fa-chevron-right fa-icon"></i></a>
           </div>
         </div>
       </div>
@@ -892,11 +892,11 @@
         <div class="row">
           <div class="col-md-12">
             <div class="niwax-client-slider owl-carousel">
-              <div class="awardlogo"> <img src="images/client/customer-logo-1.png" alt="icon"></div>
-              <div class="awardlogo"> <img src="images/client/customer-logo-2.png" alt="icon"></div>
-              <div class="awardlogo"> <img src="images/client/customer-logo-3.png" alt="icon"></div>
-              <div class="awardlogo"> <img src="images/client/customer-logo-4.png" alt="icon"></div>
-              <div class="awardlogo"> <img src="images/client/customer-logo-5.png" alt="icon"></div>
+              <div class="awardlogo"> <img src="{{asset('frontsite')}}/images/client/customer-logo-1.png" alt="icon"></div>
+              <div class="awardlogo"> <img src="{{asset('frontsite')}}/images/client/customer-logo-2.png" alt="icon"></div>
+              <div class="awardlogo"> <img src="{{asset('frontsite')}}/images/client/customer-logo-3.png" alt="icon"></div>
+              <div class="awardlogo"> <img src="{{asset('frontsite')}}/images/client/customer-logo-4.png" alt="icon"></div>
+              <div class="awardlogo"> <img src="{{asset('frontsite')}}/images/client/customer-logo-5.png" alt="icon"></div>
             </div>
           </div>
         </div>
@@ -929,22 +929,22 @@
                 <h5>SUPPORT</h5>
                 <ul class="footer-address-list link-hover">
                   <li><a href="{{asset('frontsite')}}/get-quote.html">Contact</a></li>
-                  <li><a href="{{asset('frontsite')}}/javascript:void(0)">Customer's FAQ</a></li>
-                  <li><a href="{{asset('frontsite')}}/javascript:void(0)">Refund Policy</a></li>
-                  <li><a href="{{asset('frontsite')}}/javascript:void(0)">Privacy Policy</a></li>
-                  <li><a href="{{asset('frontsite')}}/javascript:void(0)">Terms and Conditions</a></li>
-                  <li><a href="{{asset('frontsite')}}/javascript:void(0)">License & Copyright</a></li>
+                  <li><a href="javascript:void(0)">Customer's FAQ</a></li>
+                  <li><a href="javascript:void(0)">Refund Policy</a></li>
+                  <li><a href="javascript:void(0)">Privacy Policy</a></li>
+                  <li><a href="javascript:void(0)">Terms and Conditions</a></li>
+                  <li><a href="javascript:void(0)">License & Copyright</a></li>
                 </ul>
               </div>
               <div class="col-lg-4 col-sm-6 pt40">
                 <h5>Company</h5>
                 <ul class="footer-address-list link-hover">
                   <li><a href="{{asset('frontsite')}}/get-quote.html">Contact</a></li>
-                  <li><a href="{{asset('frontsite')}}/javascript:void(0)">Customer's FAQ</a></li>
-                  <li><a href="{{asset('frontsite')}}/javascript:void(0)">Refund Policy</a></li>
-                  <li><a href="{{asset('frontsite')}}/javascript:void(0)">Privacy Policy</a></li>
-                  <li><a href="{{asset('frontsite')}}/javascript:void(0)">Terms and Conditions</a></li>
-                  <li><a href="{{asset('frontsite')}}/javascript:void(0)">License & Copyright</a></li>
+                  <li><a href="javascript:void(0)">Customer's FAQ</a></li>
+                  <li><a href="javascript:void(0)">Refund Policy</a></li>
+                  <li><a href="javascript:void(0)">Privacy Policy</a></li>
+                  <li><a href="javascript:void(0)">Terms and Conditions</a></li>
+                  <li><a href="javascript:void(0)">License & Copyright</a></li>
                 </ul>
               </div>
             </div>
@@ -952,10 +952,10 @@
               <div class="col-lg-4 col-sm-6 pt60">
                 <h5>Follow Us</h5>
                 <div class="ff-social-icons mt30">
-                  <a href="{{asset('frontsite')}}/javascript:void(0)" target="blank"><i class="fab fa-facebook"></i></a>
-                  <a href="{{asset('frontsite')}}/javascript:void(0)" target="blank"><i class="fab fa-twitter"></i></a>
-                  <a href="{{asset('frontsite')}}/javascript:void(0)" target="blank"><i class="fab fa-linkedin"></i></a>
-                  <a href="{{asset('frontsite')}}/javascript:void(0)" target="blank"><i class="fab fa-instagram"></i></a>
+                  <a href="javascript:void(0)" target="blank"><i class="fab fa-facebook"></i></a>
+                  <a href="javascript:void(0)" target="blank"><i class="fab fa-twitter"></i></a>
+                  <a href="javascript:void(0)" target="blank"><i class="fab fa-linkedin"></i></a>
+                  <a href="javascript:void(0)" target="blank"><i class="fab fa-instagram"></i></a>
                 </div>
               </div>
               <div class="col-lg-6 pt60">
@@ -971,14 +971,14 @@
     <!--End Footer-->
     <!--End Footer-->
     <!-- js placed at the end of the document so the pages load faster -->
-    <script src="js/vendor/modernizr-3.5.0.min.js"></script>
-    <script src="js/jquery.min.js"></script>
-    <script async src="js/typer.js"></script>
-    <script src="js/bootstrap.bundle.min.js"></script> 
-    <script src="js/plugin.min.js"></script>    
-    <script src="js/preloader.js"></script>
+    <script src="{{asset('frontsite')}}/js/vendor/modernizr-3.5.0.min.js"></script>
+    <script src="{{asset('frontsite')}}/js/jquery.min.js"></script>
+    <script async src="{{asset('frontsite')}}/js/typer.js"></script>
+    <script src="{{asset('frontsite')}}/js/bootstrap.bundle.min.js"></script> 
+    <script src="{{asset('frontsite')}}/js/plugin.min.js"></script>    
+    <script src="{{asset('frontsite')}}/js/preloader.js"></script>
     <!--common script file-->
-    <script src="js/main.js"></script>
+    <script src="{{asset('frontsite')}}/js/main.js"></script>
     <script>
       //Owl-Carousel - client logo
       var owl = $('.niwax-client-slider');
