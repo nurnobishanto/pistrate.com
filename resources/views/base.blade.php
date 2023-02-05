@@ -99,7 +99,7 @@
     </header>
     <!--End Header -->
     <!--Start Hero-->
-    <section class="hero-section niwax-lp1" data-background="images/banner/niwax-lpbg.jpg" id="home">
+    <section class="hero-section niwax-lp1" data-background="{{asset('frontsite')}}/images/banner/niwax-lpbg.jpg" id="home">
       <div class="text-block">
         <div class="container">
           <div class="row v-center">
@@ -665,7 +665,7 @@
         <div class="row justify-content-center">
           <div class="col-lg-4 col-md-6 nxpb-1">
             <div class="niwaxpricingbox shadow">
-              <div class="pricingheader" data-background="images/icons/plan-1.svg">
+              <div class="pricingheader" data-background="{{asset('frontsite')}}/images/icons/plan-1.svg">
                 <h2>Basic</h2>
                 <p>Great For Small Business</p>
               </div>
@@ -713,7 +713,7 @@
           </div>
           <div class="col-lg-4 col-md-6 nxpb-2">
             <div class="niwaxpricingbox shadow reco">
-              <div class="pricingheader" data-background="images/icons/plan-2.svg">
+              <div class="pricingheader" data-background="{{asset('frontsite')}}/images/icons/plan-2.svg">
                 <h2>Professional</h2>
                 <p>Great For Small Business</p>
               </div>
@@ -761,7 +761,7 @@
           </div>
           <div class="col-lg-4 col-md-6 nxpb-3">
             <div class="niwaxpricingbox shadow">
-              <div class="pricingheader" data-background="images/icons/plan-3.svg">
+              <div class="pricingheader" data-background="{{asset('frontsite')}}/images/icons/plan-3.svg">
                 <h2>Premium </h2>
                 <p>Great For Small Business</p>
               </div>
