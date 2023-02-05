@@ -26,7 +26,9 @@
     <!--Start Preloader -->
     <div class="onloadpage" id="page_loader">
       <div class="pre-content">
-        <div class="logo-pre"><img src="{{asset('frontsite')}}/images/logo.png" alt="Logo" class="img-fluid" /></div>
+        <div class="logo-pre">
+          <img src="{{asset('frontsite')}}/images/logo.png" alt="Logo" class="img-fluid" />
+        </div>
         <div class="pre-text- text-radius text-light text-animation bg-b">Pistrate - Creative Agency is 2 Seconds Away. Have Patience</div>
       </div>
     </div>
