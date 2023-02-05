@@ -38,9 +38,9 @@
       <div class="container m-pad">
         <div class="menu-header">
           <div class="dsk-logo"><a class="nav-brand" href="#">
-            <h3>Pristrate</h3>
-            {{-- <img src="{{asset('frontsite')}}/images/white-logo.png" alt="Logo" class="mega-white-logo"/>
-            <img src="{{asset('frontsite')}}/images/logo.png" alt="Logo" class="mega-darks-logo"/> --}}
+            
+            <img src="{{asset('frontsite')}}/images/white-logo.png" alt="Logo" class="mega-white-logo"/>
+            <img src="{{asset('frontsite')}}/images/logo.png" alt="Logo" class="mega-darks-logo"/>
             </a>
           </div>
           <div class="custom-nav" role="navigation">
