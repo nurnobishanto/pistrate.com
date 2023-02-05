@@ -35,9 +35,10 @@
     <header class="nav-bg-w main-header navfix fixed-top menu-white">
       <div class="container m-pad">
         <div class="menu-header">
-          <div class="dsk-logo"><a class="nav-brand" href="{{asset('frontsite')}}/digital-agency.html">
-            <img src="{{asset('frontsite')}}/images/white-logo.png" alt="Logo" class="mega-white-logo"/>
-            <img src="{{asset('frontsite')}}/images/logo.png" alt="Logo" class="mega-darks-logo"/>
+          <div class="dsk-logo"><a class="nav-brand" href="#">
+            <h3>Pristrate</h3>
+            {{-- <img src="{{asset('frontsite')}}/images/white-logo.png" alt="Logo" class="mega-white-logo"/>
+            <img src="{{asset('frontsite')}}/images/logo.png" alt="Logo" class="mega-darks-logo"/> --}}
             </a>
           </div>
           <div class="custom-nav" role="navigation">
@@ -106,7 +107,7 @@
               <div class="header-headings">
                 <span class="text-effect-1">Solution-Oriented Services</span>
                 <h1 class="wow fadeIn mt20 mb30" data-wow-delay=".4s">Creative Design Company We Create <span class="typer" id="main" data-words="Websites, Apps, Graphics, Brandings, Marketings" data-delay="100" data-deleteDelay="1000"></span> <span class="cursorx" data-owner="first-typer">|</span></h1>
-                <p class="wow fadeIn" data-wow-delay=".8s">Niwax is one of the most creative and experienced mobile app development companies in India.</p>
+                <p class="wow fadeIn" data-wow-delay=".8s">Pistrate is one of the most creative and experienced mobile app development companies in India.</p>
                 <!-- btn set -->
                 <div class="niwaxbtnvideo mt30">
                   <a href="#" class="niwax-btn2">GET STARTED<i class="fas fa-chevron-right fa-icon"></i></a>
@@ -817,7 +818,7 @@
           <div class="col-lg-8">
             <div class="common-heading ptag">
               <span>We Deliver Our Best</span>
-              <h2>Why Choose Niwax</h2>
+              <h2>Why Choose Pistrate</h2>
               <p class="mb30">Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit.</p>
             </div>
           </div>
@@ -960,7 +961,7 @@
               </div>
               <div class="col-lg-6 pt60">
                 <div class="footer-copyrights-">
-                  <p>© 2020-2022. All Rights Reserved By <a href="https://themeforest.net/user/rajesh-doot/portfolio" target="blank">Rajesh Doot</a></p>
+                  <p>© 2020-2023. All Rights Reserved By <a href="https://nurnobishanto.com" target="blank">Nurnobi Shanto</a></p>
                 </div>
               </div>
             </div>
