@@ -23,14 +23,14 @@
     <style>html { scroll-behavior: smooth;}</style>
   </head>
   <body>
-    <!--Start Preloader -->
+    {{-- <!--Start Preloader -->
     <div class="onloadpage" id="page_loader">
       <div class="pre-content">
         <div class="logo-pre"><img src="images/logo.png" alt="Logo" class="img-fluid" /></div>
         <div class="pre-text- text-radius text-light text-animation bg-b">Niwax - Creative Agency & Portfolio HTML Template Are 2 Seconds Away. Have Patience</div>
       </div>
     </div>
-    <!--End Preloader -->
+    <!--End Preloader --> --}}
     <!--Start Header -->
     <header class="nav-bg-w main-header navfix fixed-top menu-white">
       <div class="container m-pad">
