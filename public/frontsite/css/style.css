@@ -3889,8 +3889,7 @@ a{text-decoration: auto;}
     font-weight: 400;
     color: #fff;
     cursor: pointer;
-    padding: 0px 32px;
-    line-height: 56px;
+    padding: 16px 32px;
     text-align:center;
     border: none;
     background-size: 300% 100%;
@@ -3918,8 +3917,8 @@ a{text-decoration: auto;}
         font-weight: 400;
         color: #fff;
         cursor: pointer;
-        padding: 0px 32px;
-        line-height: 56px;
+        padding: 16px 32px;
+       
         text-align:center;
         border: none;
         background-size: 300% 100%;
